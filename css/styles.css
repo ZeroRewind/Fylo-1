@@ -1,0 +1,104 @@
+/* css */
+body{
+  margin:0;
+  width:1440px;
+  height:875px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* Classes  */
+
+.leftside{
+  width:720px;
+  height:875px;
+  background:linear-gradient(to bottom left, #070439,#bbb8fa);
+
+}
+
+.illustration{
+  position:relative;
+  left: 125px;
+  top: 125px;
+}
+
+.rightside{
+width:720px;
+
+position:absolute;
+left: 750px;
+bottom: 800px;
+}
+
+.fylologo{
+  position:relative;
+  left:70px;
+  top:600px;
+}
+
+.mainsection{
+  position:relative;
+  top:500px;
+  left:70px;
+}
+
+.slogan{
+    font-family: 'Raleway', sans-serif;
+  font-size:47px;
+  position:relative;
+  top:150px;
+
+}
+
+.description{
+position:relative;
+width:70%;
+top:130px;
+color:hsl(0,0%,50%);
+}
+
+.signup{
+  position:relative;
+  top:150px;
+  font-size:25px;
+  font-weight:bold;
+}
+
+.email-input{
+  position:relative;
+  top:130px;
+  width:400px;
+  height:50px;
+  font-size:30px;
+  border-radius:10px;
+}
+
+.signup-butn{
+  -webkit-border-radius: 7;
+   -moz-border-radius: 7;
+   border-radius: 7px;
+   font-family: Arial;
+   color: #ffffff;
+   font-size: 25px;
+   background: #05d69b;
+   text-decoration: none;
+   width:200px;
+   text-align:center;
+   position:relative;
+   padding: 13px 13px 13px 13px;
+   top:50px;
+   left:410px;
+}
+
+.signup-butn:hover{
+  background: #05d69b;
+  text-decoration: none;
+}
+
+.privacypolicy{
+  position:relative;
+  top:250px;
+  left:650px;
+  color:black;
+}
